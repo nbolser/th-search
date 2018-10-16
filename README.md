@@ -1,29 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### System dependencies
 
-Things you may want to cover:
+* `rbenv install 2.5.0`
+* `brew cask install homebrew/cask-versions/java8`
+* `brew install elasticsearch`
 
-* Ruby version
+### Configuration
 
-`rbenv install 2.5.0`
+ * `bundle install`
 
-* System dependencies
+### How to run the test suite
 
-`brew cask install homebrew/cask-versions/java8`
-`brew install elasticsearch`
+ * `bundle exec rspec`
 
-* Configuration
+### Try it out
 
-`bundle install`
-
-* Database creation
-
-* How to run the test suite
-
-`bundle exec rspec`
-
-* Use it
-
-`bundle exec rails s`
+* `foreman start`
