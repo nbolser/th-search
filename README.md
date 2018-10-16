@@ -7,18 +7,23 @@ Things you may want to cover:
 
 * Ruby version
 
+`rbenv install 2.5.0`
+
 * System dependencies
+
+`brew cask install homebrew/cask-versions/java8`
+`brew install elasticsearch`
 
 * Configuration
 
-* Database creation
+`bundle install`
 
-* Database initialization
+* Database creation
 
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+`bundle exec rspec`
 
-* Deployment instructions
+* Use it
 
-* ...
+`bundle exec rails s`
